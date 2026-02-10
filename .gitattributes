@@ -1,0 +1,14 @@
+# Force GitHub to count these as code
+*.py linguist-detectable=true
+*.ts linguist-detectable=true
+*.tsx linguist-detectable=true
+*.js linguist-detectable=true
+*.css linguist-detectable=true
+*.html linguist-detectable=true
+*.sh linguist-detectable=true
+
+# Tell GitHub that 'dashboard' is NOT vendor code (it's your code)
+dashboard/* linguist-vendored=false
+
+# Ignore lock files in the stats (optional, makes it cleaner)
+package-lock.json linguist-generated=true
