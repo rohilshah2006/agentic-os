@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+pydantic
+send2trash
